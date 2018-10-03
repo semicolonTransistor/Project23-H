@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Project-23-rescue)(type Legacy)(uri "${KIPRJMOD}/Project 23-rescue.lib")(options "")(descr ""))
+  (lib (name stm32)(type Legacy)(uri ${KIPRJMOD}/stm32.lib)(options "")(descr ""))
+  (lib (name Project23-extras)(type Legacy)(uri ${KIPRJMOD}/Project23-extras.lib)(options "")(descr ""))
+)
