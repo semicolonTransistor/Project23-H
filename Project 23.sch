@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L stm32:STM32F103C(8-B)Tx U1
-U 1 1 5B01BC59
-P 4550 2850
-F 0 "U1" H 4550 2950 50  0000 C CNN
-F 1 "STM32F103C(8-B)Tx" H 4550 2750 50  0000 C CNN
-F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 4550 2650 50  0001 C CIN
-F 3 "" H 4550 2850 50  0000 C CNN
-	1    4550 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR01
 U 1 1 5B01BD74
 P 8000 4950
@@ -566,50 +555,6 @@ F 1 "+5V" H 6050 6740 50  0000 C CNN
 F 2 "" H 6050 6600 50  0001 C CNN
 F 3 "" H 6050 6600 50  0001 C CNN
 	1    6050 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Crystal Y12
-U 1 1 5B055736
-P 900 2750
-F 0 "Y12" H 900 2900 50  0000 C CNN
-F 1 "32khz" H 900 2600 50  0000 C CNN
-F 2 "Project 23:ABS25" H 900 2750 50  0001 C CNN
-F 3 "" H 900 2750 50  0001 C CNN
-	1    900  2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C14
-U 1 1 5B0560D6
-P 1050 3100
-F 0 "C14" H 1075 3200 50  0000 L CNN
-F 1 "20p" H 1075 3000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1088 2950 50  0001 C CNN
-F 3 "" H 1050 3100 50  0001 C CNN
-	1    1050 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C13
-U 1 1 5B0561ED
-P 750 3100
-F 0 "C13" H 775 3200 50  0000 L CNN
-F 1 "20p" H 775 3000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 788 2950 50  0001 C CNN
-F 3 "" H 750 3100 50  0001 C CNN
-	1    750  3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR023
-U 1 1 5B05692F
-P 900 3400
-F 0 "#PWR023" H 900 3150 50  0001 C CNN
-F 1 "GND" H 900 3250 50  0000 C CNN
-F 2 "" H 900 3400 50  0001 C CNN
-F 3 "" H 900 3400 50  0001 C CNN
-	1    900  3400
 	1    0    0    -1  
 $EndComp
 Text Label 8100 750  0    60   ~ 0
@@ -1314,25 +1259,6 @@ Wire Wire Line
 Connection ~ 5250 6650
 Connection ~ 6050 6650
 Wire Wire Line
-	1050 2650 1150 2650
-Wire Wire Line
-	1050 2650 1050 2750
-Wire Wire Line
-	750  2550 750  2750
-Wire Wire Line
-	750  2550 1150 2550
-Connection ~ 750  2750
-Connection ~ 1050 2750
-Wire Wire Line
-	750  3250 750  3300
-Wire Wire Line
-	750  3300 900  3300
-Wire Wire Line
-	1050 3300 1050 3250
-Wire Wire Line
-	900  3400 900  3300
-Connection ~ 900  3300
-Wire Wire Line
 	9600 4250 10200 4250
 Wire Wire Line
 	10200 4250 10200 4200
@@ -1601,12 +1527,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 6650 6050 6900
 Wire Wire Line
-	750  2750 750  2950
-Wire Wire Line
-	1050 2750 1050 2950
-Wire Wire Line
-	900  3300 1050 3300
-Wire Wire Line
 	10850 6200 10950 6200
 Wire Wire Line
 	8550 5150 8850 5150
@@ -1642,4 +1562,41 @@ Wire Wire Line
 	6300 5400 6600 5400
 Wire Wire Line
 	6300 5900 6600 5900
+$Comp
+L stm32:STM32F103C(8-B)Tx U1
+U 1 1 5B01BC59
+P 4550 2850
+F 0 "U1" H 4550 2950 50  0000 C CNN
+F 1 "STM32F103C(8-B)Tx" H 4550 2750 50  0000 C CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 4550 2650 50  0001 C CIN
+F 3 "" H 4550 2850 50  0000 C CNN
+	1    4550 2850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1150 2550
+NoConn ~ 1150 2650
+$Comp
+L Connector_Generic:Conn_01x01 M1
+U 1 1 5BBF4E00
+P 6600 6350
+F 0 "M1" H 6679 6392 50  0000 L CNN
+F 1 "Hole_M2" H 6679 6301 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6600 6350 50  0001 C CNN
+F 3 "~" H 6600 6350 50  0001 C CNN
+	1    6600 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 M2
+U 1 1 5BBF5814
+P 6600 6550
+F 0 "M2" H 6679 6592 50  0000 L CNN
+F 1 "Hole_M2" H 6679 6501 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6600 6550 50  0001 C CNN
+F 3 "~" H 6600 6550 50  0001 C CNN
+	1    6600 6550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6400 6350
+NoConn ~ 6400 6550
 $EndSCHEMATC
