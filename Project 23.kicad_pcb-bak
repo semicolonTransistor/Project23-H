@@ -2274,7 +2274,7 @@
     )
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5BC3A3BB)
+  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 5BB75EBF) (tstamp 5BC3A3BB)
     (at 61 49)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -2294,7 +2294,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5BC3A3C3)
+  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 5BB75EC6) (tstamp 5BC3A3C3)
     (at 102 60)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
