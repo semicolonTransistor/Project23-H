@@ -1942,4 +1942,38 @@ F 3 "" H 4100 8450 50  0001 C CNN
 	1    4100 8450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x03_Female J14
+U 1 1 5C591197
+P 7900 7500
+F 0 "J14" H 7928 7526 50  0000 L CNN
+F 1 "Serial DB" H 7928 7435 50  0000 L CNN
+F 2 "" H 7900 7500 50  0001 C CNN
+F 3 "~" H 7900 7500 50  0001 C CNN
+	1    7900 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 7400 7250 7400
+Wire Wire Line
+	7700 7500 7250 7500
+Wire Wire Line
+	7700 7600 7600 7600
+Wire Wire Line
+	7600 7600 7600 7700
+Text Label 7250 7400 0    60   ~ 0
+TXD
+Text Label 7250 7500 0    60   ~ 0
+RXD
+$Comp
+L power:GND #PWR?
+U 1 1 5C5E33AB
+P 7600 7700
+F 0 "#PWR?" H 7600 7450 50  0001 C CNN
+F 1 "GND" H 7605 7527 50  0000 C CNN
+F 2 "" H 7600 7700 50  0001 C CNN
+F 3 "" H 7600 7700 50  0001 C CNN
+	1    7600 7700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
