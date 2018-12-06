@@ -567,7 +567,7 @@ Rev_LED
 Text Label 12000 9500 0    60   ~ 0
 Pwr_LED
 Text Label 8350 1700 0    60   ~ 0
-PWR_EN
+PWR_En
 $Comp
 L Device:C C16
 U 1 1 5B06118E
@@ -613,7 +613,7 @@ U 1 1 5B05AAC7
 P 15500 8750
 F 0 "J61" H 15300 9200 50  0000 L CNN
 F 1 "USB_Micro" H 15300 9100 50  0000 L CNN
-F 2 "Project 23:usbMicro" H 15650 8700 50  0001 C CNN
+F 2 "Project 23:microUsbSunken" H 15650 8700 50  0001 C CNN
 F 3 "" H 15650 8700 50  0001 C CNN
 	1    15500 8750
 	-1   0    0    -1  
@@ -629,19 +629,6 @@ F 3 "" H 14700 8850 50  0001 C CNN
 	1    14700 8850
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R64
-U 1 1 5B06806B
-P 14700 8550
-F 0 "R64" V 14600 8550 50  0000 C CNN
-F 1 "10k" V 14700 8550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14630 8550 50  0001 C CNN
-F 3 "" H 14700 8550 50  0001 C CNN
-	1    14700 8550
-	0    1    1    0   
-$EndComp
-Text Label 14050 8550 0    60   ~ 0
-VBus_Sense
 NoConn ~ 950  1500
 $Comp
 L Device:R R12
@@ -1077,14 +1064,9 @@ Wire Wire Line
 Wire Wire Line
 	15150 9200 15500 9200
 Wire Wire Line
-	14850 8550 15100 8550
-Wire Wire Line
 	14450 8750 14450 8950
 Connection ~ 14450 8750
 Connection ~ 15150 9200
-Connection ~ 15100 8550
-Wire Wire Line
-	14550 8550 14050 8550
 Wire Wire Line
 	13400 3300 13350 3300
 Wire Wire Line
@@ -1232,7 +1214,6 @@ F 3 "" H 4850 3000 50  0000 C CNN
 	1    4850 3000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1450 2700
 NoConn ~ 1450 2800
 Text Label 3300 9500 0    60   ~ 0
 Rev_Limit
@@ -1831,7 +1812,7 @@ R_DIV_En
 Text Label 8350 1000 0    60   ~ 0
 Batt_Mon
 Text Label 4150 7400 0    60   ~ 0
-BATT_Mon
+Batt_Mon
 Wire Wire Line
 	6200 7350 6200 7400
 Wire Wire Line
@@ -1943,17 +1924,9 @@ F 3 "" H 4100 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7700 7150 7250 7150
-Wire Wire Line
-	7700 7350 7250 7350
-Wire Wire Line
 	7700 7550 7600 7550
 Wire Wire Line
 	7600 7550 7600 7650
-Text Label 7250 7150 0    60   ~ 0
-TXD
-Text Label 7250 7350 0    60   ~ 0
-RXD
 $Comp
 L power:GND #PWR0115
 U 1 1 5C5E33AB
@@ -1964,28 +1937,6 @@ F 2 "" H 7600 7650 50  0001 C CNN
 F 3 "" H 7600 7650 50  0001 C CNN
 	1    7600 7650
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP73
-U 1 1 5C096841
-P 7700 7150
-F 0 "TP73" V 7654 7338 50  0000 L CNN
-F 1 "TXD" V 7745 7338 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7900 7150 50  0001 C CNN
-F 3 "~" H 7900 7150 50  0001 C CNN
-	1    7700 7150
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP74
-U 1 1 5C0CDC40
-P 7700 7350
-F 0 "TP74" V 7654 7538 50  0000 L CNN
-F 1 "RXD" V 7745 7538 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7900 7350 50  0001 C CNN
-F 3 "~" H 7900 7350 50  0001 C CNN
-	1    7700 7350
-	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP75
@@ -2039,4 +1990,54 @@ F 3 "~" H 15750 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	15350 2700 15550 2700
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C0E81B8
+P 9400 7700
+F 0 "H1" H 9500 7746 50  0000 L CNN
+F 1 "M2" H 9500 7655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9400 7700 50  0001 C CNN
+F 3 "~" H 9400 7700 50  0001 C CNN
+	1    9400 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C0E8A06
+P 9400 7950
+F 0 "H2" H 9500 7996 50  0000 L CNN
+F 1 "M2" H 9500 7905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9400 7950 50  0001 C CNN
+F 3 "~" H 9400 7950 50  0001 C CNN
+	1    9400 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C0E8C1D
+P 9800 7700
+F 0 "H3" H 9900 7746 50  0000 L CNN
+F 1 "M2" H 9900 7655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9800 7700 50  0001 C CNN
+F 3 "~" H 9800 7700 50  0001 C CNN
+	1    9800 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C0E8C24
+P 9800 7950
+F 0 "H4" H 9900 7996 50  0000 L CNN
+F 1 "M2" H 9900 7905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9800 7950 50  0001 C CNN
+F 3 "~" H 9800 7950 50  0001 C CNN
+	1    9800 7950
+	1    0    0    -1  
+$EndComp
+Text Label 13300 4900 0    60   ~ 0
+Stat
+Wire Wire Line
+	1450 2700 950  2700
+Text Label 950  2700 0    60   ~ 0
+Stat
 $EndSCHEMATC
