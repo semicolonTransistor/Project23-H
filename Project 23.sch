@@ -124,7 +124,7 @@ Fwd_Limit
 Text Label 8350 1300 0    60   ~ 0
 Rev_Limit
 $Comp
-L Project-23-rescue:Conn_02x05_Odd_Even-Project-23-rescue-Project-23-rescue J11
+L Project-23-rescue:Conn_02x05_Odd_Even-Project-23-rescue J11
 U 1 1 5B049189
 P 2350 9400
 F 0 "J11" H 2400 9700 50  0000 C CNN
@@ -135,7 +135,7 @@ F 3 "" H 2350 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Project-23-rescue:Conn_02x05_Odd_Even-Project-23-rescue-Project-23-rescue J12
+L Project-23-rescue:Conn_02x05_Odd_Even-Project-23-rescue J12
 U 1 1 5B049278
 P 2350 10350
 F 0 "J12" H 2400 10650 50  0000 C CNN
@@ -189,7 +189,7 @@ Quad_Index
 Text Label 3300 9300 0    60   ~ 0
 Fwd_Limit
 $Comp
-L Project-23-rescue:SW_SPST-Project-23-rescue-Project-23-rescue SW11
+L Project-23-rescue:SW_SPST-Project-23-rescue SW11
 U 1 1 5B04BEBC
 P 6700 9950
 F 0 "SW11" H 6700 10075 50  0000 C CNN
@@ -204,7 +204,7 @@ Power_Btn
 Text Label 950  2600 0    60   ~ 0
 UI_Btn
 $Comp
-L Project-23-rescue:SW_SPST-Project-23-rescue-Project-23-rescue SW12
+L Project-23-rescue:SW_SPST-Project-23-rescue SW12
 U 1 1 5B04C643
 P 6700 10250
 F 0 "SW12" H 6700 10375 50  0000 C CNN
@@ -219,7 +219,7 @@ UI_Btn
 Text Label 6100 10250 0    60   ~ 0
 Power_Btn
 $Comp
-L Project-23-rescue:Conn_01x04-Project-23-rescue-Project-23-rescue J13
+L Project-23-rescue:Conn_01x04-Project-23-rescue J13
 U 1 1 5B04CC06
 P 5050 10200
 F 0 "J13" H 5050 10400 50  0000 C CNN
@@ -345,7 +345,7 @@ F 3 "" H 15350 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Project-23-rescue:Conn_01x07-Project-23-rescue-Project-23-rescue U5
+L Project-23-rescue:Conn_01x07-Project-23-rescue U5
 U 1 1 5B057DA1
 P 10050 9950
 F 0 "U5" V 10150 10300 50  0000 C CNN
@@ -529,7 +529,7 @@ Rev_LED
 Text Label 8350 2000 0    60   ~ 0
 Pwr_LED
 $Comp
-L Project-23-rescue:USB_OTG-Project-23-rescue-Project-23-rescue J61
+L Project-23-rescue:USB_OTG-Project-23-rescue J61
 U 1 1 5B05AAC7
 P 15500 8750
 F 0 "J61" H 15300 9200 50  0000 L CNN
