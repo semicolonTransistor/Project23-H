@@ -308,11 +308,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# Project-23-rescue_Conn_01x04-Project-23-rescue
+# Project-23-rescue_Conn_01x04-Project-23-rescue-Project-23-rescue
 #
-DEF Project-23-rescue_Conn_01x04-Project-23-rescue J 0 40 Y N 1 F N
+DEF Project-23-rescue_Conn_01x04-Project-23-rescue-Project-23-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Project-23-rescue_Conn_01x04-Project-23-rescue" 0 -300 50 H V C CNN
+F1 "Project-23-rescue_Conn_01x04-Project-23-rescue-Project-23-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -336,11 +336,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Project-23-rescue_Conn_01x07-Project-23-rescue
+# Project-23-rescue_Conn_01x07-Project-23-rescue-Project-23-rescue
 #
-DEF Project-23-rescue_Conn_01x07-Project-23-rescue J 0 40 Y N 1 F N
+DEF Project-23-rescue_Conn_01x07-Project-23-rescue-Project-23-rescue J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Project-23-rescue_Conn_01x07-Project-23-rescue" 0 -400 50 H V C CNN
+F1 "Project-23-rescue_Conn_01x07-Project-23-rescue-Project-23-rescue" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -370,11 +370,11 @@ X Pin_7 7 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Project-23-rescue_Conn_02x05_Odd_Even-Project-23-rescue
+# Project-23-rescue_Conn_02x05_Odd_Even-Project-23-rescue-Project-23-rescue
 #
-DEF Project-23-rescue_Conn_02x05_Odd_Even-Project-23-rescue J 0 40 Y N 1 F N
+DEF Project-23-rescue_Conn_02x05_Odd_Even-Project-23-rescue-Project-23-rescue J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Project-23-rescue_Conn_02x05_Odd_Even-Project-23-rescue" 50 -300 50 H V C CNN
+F1 "Project-23-rescue_Conn_02x05_Odd_Even-Project-23-rescue-Project-23-rescue" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -410,11 +410,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Project-23-rescue_SW_SPST-Project-23-rescue
+# Project-23-rescue_SW_SPST-Project-23-rescue-Project-23-rescue
 #
-DEF Project-23-rescue_SW_SPST-Project-23-rescue SW 0 0 Y N 1 F N
+DEF Project-23-rescue_SW_SPST-Project-23-rescue-Project-23-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 125 50 H V C CNN
-F1 "Project-23-rescue_SW_SPST-Project-23-rescue" 0 -100 50 H V C CNN
+F1 "Project-23-rescue_SW_SPST-Project-23-rescue-Project-23-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -426,11 +426,11 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Project-23-rescue_USB_OTG-Project-23-rescue
+# Project-23-rescue_USB_OTG-Project-23-rescue-Project-23-rescue
 #
-DEF Project-23-rescue_USB_OTG-Project-23-rescue J 0 40 Y Y 1 F N
+DEF Project-23-rescue_USB_OTG-Project-23-rescue-Project-23-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "Project-23-rescue_USB_OTG-Project-23-rescue" -200 350 50 H V L CNN
+F1 "Project-23-rescue_USB_OTG-Project-23-rescue-Project-23-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
