@@ -3206,7 +3206,7 @@
   (module "Project 23:Molex0476420001_UsbMicro" locked (layer F.Cu) (tedit 5C3AA484) (tstamp 5C4737BA)
     (at 50 55 270)
     (path /5B05AAC7)
-    (fp_text reference J61 (at 0 7.62 270) (layer F.SilkS)
+    (fp_text reference J61 (at 0 -3.15 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Molex 0476420001" (at 0 -10.16 270) (layer F.Fab)
